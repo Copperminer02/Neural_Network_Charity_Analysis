@@ -31,13 +31,13 @@ This project uses deep learning neural network analysis to model donor contribum
       * Activation Functions - relu returned the best reulsts in the hidden layers.  Sigmoid was used for all output layers.
     * Model Performace - my best otimization achieved 72.97% Accuracy, higher than the initial base 72.4%.
     * Steps to increase model performance
-        1. Optimization 1
+        Optimization 1
           1. Drop Income Amount
           2. Added a third hidden layer and increased neurons 
             ![image](https://user-images.githubusercontent.com/91850824/165212829-7c5f316e-8fb2-4b4f-b644-10d19bf0ada2.png)
           3. Increased Epochs to 200
             
-        2. Optimization 2
+        Optimization 2
           1. Drop Income Amount
           2. Bucketed Calssification value below 2000 (original was 1500).  Reinterpreted desnity graph
             ![image](https://user-images.githubusercontent.com/91850824/165212695-5bf0b536-8c19-41e5-8a91-064ad7c44bbf.png)
@@ -49,7 +49,7 @@ This project uses deep learning neural network analysis to model donor contribum
             ![image](https://user-images.githubusercontent.com/91850824/165213654-7264b80c-975a-460c-bc22-84d9116e8252.png)
           5. Increased Epochs to 200
         
-        3. Optimization 3
+        Optimization 3
           1. Drop Income Amount
           2. Bucketed Calssification value below 150 (original was 1500)
           3. Bucketted Application Type below 100
